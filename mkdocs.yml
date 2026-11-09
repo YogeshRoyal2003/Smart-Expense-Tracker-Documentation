@@ -16,3 +16,5 @@ nav:
   - Product overview: product-overview.md
   - Getting started:
     - Installation: getting-started/installation.md
+  - User Guide:
+    - Dashboard: user-guide/dashboard.md
