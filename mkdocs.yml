@@ -1,0 +1,18 @@
+
+site_name: Smart Expense Tracker Documentation
+site_description: User and developer documentation for Smart Expense Tracker
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Product overview: product-overview.md
+  - Getting started:
+    - Installation: getting-started/installation.md
