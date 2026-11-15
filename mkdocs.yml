@@ -11,6 +11,11 @@ theme:
     - search.suggest
     - content.code.copy
 
+plugins:
+  - search
+  - swagger-ui-tag:
+      supportedSubmitMethods: []
+
 nav:
   - Home: index.md
   - Product overview: product-overview.md
@@ -18,3 +23,12 @@ nav:
     - Installation: getting-started/installation.md
   - User Guide:
     - Dashboard: user-guide/dashboard.md
+  - API Documentation:
+    - API Overview: api/overview.md
+    - Endpoint Inventory: api/endpoint-inventory.md
+    - Data Models: api/data-models.md
+    - Error Reference: api/errors.md
+    - Interactive API Reference: api/reference.md
+    - API Testing Report: api/testing-report.md
+    - Request and Response Examples: api/request-reponse-examples.md
+  - Release history: releases/index.md
